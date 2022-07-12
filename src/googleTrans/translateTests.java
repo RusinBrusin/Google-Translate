@@ -28,7 +28,7 @@ private static WebDriver driver = null;
 		translateOBJ trnsObj = new translateOBJ(driver);
 		
 		// input
-		trnsObj.translateInput("Testing is fun!");
+		trnsObj.translateInput("Enter your text here");
 		
 		
 			
