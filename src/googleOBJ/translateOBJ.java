@@ -17,7 +17,7 @@ WebDriver driver = null;
 	By Translate_Search = By.className("yFQBKb");
 	By Translate_Search_Back = By.xpath("/html/body/c-wiz/div/div[2]/c-wiz/div[2]/c-wiz/div[1]/div[1]/c-wiz/div[2]/c-wiz/div[2]/div/div[2]/div[1]/div/span/button/div[3]");
 	By Translate_Search_X = By.xpath("/html/body/c-wiz/div/div[2]/c-wiz/div[2]/c-wiz/div[1]/div[1]/c-wiz/div[2]/c-wiz/div[2]/div/div[1]/div[4]/div/span/button/div[3]");
-	By Translate_Voice = By.xpath("/html/body/c-wiz/div/div[2]/c-wiz/div[2]/c-wiz/div[1]/div[2]/div[3]/c-wiz[2]/div[8]/div/div[4]/div[1]/div[2]/div");
+	By Translate_Voice = By.xpath("/html/body/c-wiz/div/div[2]/c-wiz/div[2]/c-wiz/div[1]/div[2]/div[3]/c-wiz[2]/div[8]/div/div[4]/div[1]/div[3]/div/div/span/button/div[3]");
 	
 	public translateOBJ(WebDriver driver) {
 		this.driver = driver;
